@@ -1,0 +1,18 @@
+2026-03-17T02:03:47.553Z [INFO] ----------------------invoke list_jdks----------------------
+2026-03-17T02:03:47.554Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "projectPath": "c:\\Users\\User\\Desktop\\G. Info\\S2\\Project\\Project\\market"
+}}).
+2026-03-17T02:03:47.554Z [INFO] [Tool.invoke] do invoke.
+2026-03-17T02:03:47.576Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 25\n   📁 Path: C:\\Program Files\\Java\\jdk-25\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-03-17T02:03:47.576Z [INFO] ----------------------invoked list_jdks----------------------
+2026-03-17T02:03:49.958Z [INFO] ----------------------invoke list_mavens----------------------
+2026-03-17T02:03:49.958Z [INFO] [Tool.invoke]({name: list_mavens, input: {
+  "projectPath": "c:\\Users\\User\\Desktop\\G. Info\\S2\\Project\\Project\\market"
+}}).
+2026-03-17T02:03:49.959Z [INFO] [Tool.invoke] do invoke.
+2026-03-17T02:03:49.973Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. 📁 Path: C:\\Users\\User\\.maven\\maven-3.9.14\\bin\n   🏷️ Source: install\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-03-17T02:03:49.973Z [INFO] ----------------------invoked list_mavens----------------------

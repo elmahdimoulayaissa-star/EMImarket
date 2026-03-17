@@ -1,19 +1,19 @@
 package com.emimarket;
 
-public enum Categorie {
-    
-    Electronique("Electronique."),
-    Livre("Livre"),
-    MODE("Mode."),
-    Autre("Autre.");
+public enum Statue {
+
+    DISPONIBLE("Disponile."),
+    EN_COURS("Non Disponible."),
+    VENDU("Vendu.");
 
     private final String description;
 
-    private Categorie(String description) {
+    private Statue(String description) {
         this.description = description;
     }
 
     public String getDescription() {
         return this.description;
     }
+    
 }
