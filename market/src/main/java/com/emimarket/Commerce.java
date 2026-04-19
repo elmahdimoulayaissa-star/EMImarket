@@ -3,7 +3,7 @@ package com.emimarket;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class Commerce {
+public final class Commerce {
 
     private Commerce() {
     }

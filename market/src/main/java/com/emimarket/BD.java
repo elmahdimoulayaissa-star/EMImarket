@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-public class BD {
+public final class BD {
 
     private final static String F1 = "users.ser", F2 = "annonces.ser", F3 = "transactions.ser";
     

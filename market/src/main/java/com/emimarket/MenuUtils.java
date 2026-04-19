@@ -1,6 +1,6 @@
 package com.emimarket;
 
-public class MenuUtils {
+public final class MenuUtils {
 
     public static void afficherTitre(String titre) {
         System.out.println("\n=========================================");

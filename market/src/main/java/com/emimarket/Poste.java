@@ -2,7 +2,7 @@ package com.emimarket;
 
 import java.util.ArrayList;
 
-public class Poste {
+public final class Poste {
 
     private Poste() {
     }

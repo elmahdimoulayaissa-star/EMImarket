@@ -3,7 +3,7 @@ package com.emimarket;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-public class Transaction implements Serializable {
+public final class Transaction implements Serializable {
 
     User acheteur, vendeur;
     double prixVente;

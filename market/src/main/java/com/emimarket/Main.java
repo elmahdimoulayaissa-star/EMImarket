@@ -1,5 +1,6 @@
 package com.emimarket;
 
+import java.io.Console;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -143,7 +144,10 @@ public class Main {
 
     private static boolean login() {
         String username = prompt("Username");
-        String password = prompt("Password");
+
+        Console console = System.console();
+        String password = new String(console.readPassword("Password :"));
+        
         if (Authentification.login(username, password)) return true;
         System.out.println("Username ou password incorrects !");
         return false;
@@ -151,7 +155,10 @@ public class Main {
 
     private static void inscrire() {
         String username = prompt("Username");
-        String password = prompt("Password");
+
+        Console console = System.console();
+        String password = new String(console.readPassword("Password :"));
+
         String email    = prompt("Email");
         try {
             boolean ok = Authentification.inscrire(username, password, email);

@@ -1,6 +1,6 @@
 package com.emimarket;
 
-public class Authentification {
+public final class Authentification {
 
     public static User currentUser;
 
