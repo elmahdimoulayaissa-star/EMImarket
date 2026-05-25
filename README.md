@@ -1,10 +1,10 @@
-# 🛒 Marketplace FX
+#  Marketplace FX
 
 Interface graphique **JavaFX** complète pour l'application Marketplace.
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 marketplace-fx/
@@ -24,7 +24,7 @@ marketplace-fx/
 
 ---
 
-## ⚙️ Prérequis
+##  Prérequis
 
 | Outil | Version minimale |
 |-------|-----------------|
@@ -35,7 +35,7 @@ marketplace-fx/
 
 ---
 
-## 🚀 Lancer l'application
+##  Lancer l'application
 
 ### Option 1 — Maven (recommandé)
 
@@ -66,7 +66,7 @@ java -jar target/marketplace-fx-1.0.0.jar
 
 ---
 
-## 🎨 Fonctionnalités de l'interface
+##  Fonctionnalités de l'interface
 
 ### Écrans
 
@@ -93,7 +93,7 @@ java -jar target/marketplace-fx-1.0.0.jar
 
 ---
 
-## 💾 Persistance des données
+##  Persistance des données
 
 Les fichiers `.ser` sont créés dans le **répertoire courant** au lancement :
 
@@ -105,7 +105,7 @@ transactions.ser
 
 ---
 
-## 👤 Compte administrateur
+##  Compte administrateur
 
 Créez un compte avec le nom d'utilisateur **`admin`** — il obtient automatiquement les droits admin et accès au panneau d'administration.
 
